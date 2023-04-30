@@ -152,10 +152,22 @@ body {
 
 .hero {
     padding: 188px 0;
+    max-width: 1440px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
     background-color: var(--second-color);
-    text-align: center;
 
+    background-image:
+        linear-gradient(to top,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero/people-office.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-head {
@@ -347,6 +359,10 @@ body {
     border: 1px solid transparent;
     background-color: var(--button-accent-color);
     color: var(--primary-fon-color);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .works-list {
@@ -359,6 +375,13 @@ body {
 .works-list>.item {
     width: calc((100% - 48px) / 3);
 
+}
+
+.works-card:hover,
+.works-card:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .works-info {

@@ -526,22 +526,23 @@ body {
 }
 
 
-
-
 /*========== Footer ========*/
 
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--second-color);
+
     color: var(--accent-color);
+    background-color: var(--second-color);
 }
 
 .footer-container {
+
     display: flex;
     justify-content: left;
-    align-content: flex-start;
+    align-items: baseline;
     gap: 120px;
+
 }
 
 .footer-logo-link {

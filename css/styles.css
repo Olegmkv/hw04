@@ -541,8 +541,12 @@ body {
     display: flex;
     justify-content: left;
     align-items: baseline;
-    gap: 120px;
+    /* gap: 120px; */
 
+}
+
+.footer-logo {
+    margin-right: 120px;
 }
 
 .footer-logo-link {
@@ -575,4 +579,8 @@ body {
     font-size: 16px;
 
     color: var(--primary-fon-color);
+}
+
+.social-footer {
+    gap: 16px;
 }

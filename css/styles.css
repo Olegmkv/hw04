@@ -390,9 +390,11 @@ body {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
+
+    color: var(--second-color);
 }
 
 .customer-list {
@@ -402,7 +404,9 @@ body {
 
 }
 
-.customer-item {
+.customer-item {}
+
+.customer-link {
     display: flex;
 
     justify-content: center;
@@ -413,6 +417,7 @@ body {
 
     border: 1px solid #8E8F99;
     border-radius: 4px;
+
 }
 
 .customer-icon {
@@ -423,7 +428,7 @@ body {
 
 }
 
-.customer-item:hover {
+.customer-link:hover {
     color: var(--button-accent-color);
     border: 1px solid var(--button-accent-color);
 }

@@ -537,7 +537,14 @@ body {
     color: var(--accent-color);
 }
 
-.logo-footer {
+.footer-container {
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    gap: 120px;
+}
+
+.footer-logo-link {
     display: inline-block;
     margin-bottom: 16px;
 
@@ -558,4 +565,13 @@ body {
 .footer-text {
 
     width: 264px;
+}
+
+.footer-head {
+    margin-bottom: 16px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    color: var(--primary-fon-color);
 }

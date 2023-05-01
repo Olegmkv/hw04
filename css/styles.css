@@ -71,7 +71,10 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid var(--secondary-fon-color)
+    border-bottom: 1px solid var(--secondary-fon-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-flex {
@@ -161,8 +164,7 @@ body {
     background-color: var(--second-color);
 
     background-image:
-        linear-gradient(to top,
-            rgba(46, 47, 66, 0.7),
+        linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/hero/people-office.jpg);
 
@@ -243,6 +245,7 @@ body {
 
 .advant-card-svg {
     min-height: 112px;
+
 }
 
 .advant-head {
@@ -317,7 +320,7 @@ body {
 }
 
 .team-card {
-    padding: 32px 16px;
+    padding: 32px 0;
 
     font-weight: 400;
     font-size: 16px;
@@ -346,7 +349,7 @@ body {
 
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 24px;
 }

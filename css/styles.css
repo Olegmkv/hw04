@@ -235,6 +235,7 @@ body {
 
 .advant-card {
     margin-bottom: 8px;
+    min-height: 112px;
 
     display: flex;
     justify-content: center;
@@ -244,10 +245,7 @@ body {
     background-color: var(--accent-color);
 }
 
-.advant-card-svg {
-    min-height: 112px;
-
-}
+.advant-card-svg {}
 
 .advant-head {
     margin-bottom: 8px;
